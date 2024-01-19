@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho{
+    background-color: rgb(33, 80, 167);
+    color: white;    
+    padding: 30px;
+    text-align: center;  
+}
+
+.conteudo{
+    background-color: rgb(147, 163, 193);
+    color: white;  
+    flex: 1 0 auto; 
+    margin-top: 10px;  
+    margin-bottom: 20px; 
+}
+
+.rodape{
+    background-color: rgb(33, 80, 167);
+    color: white; 
+    flex-shrink: 0;
+}
